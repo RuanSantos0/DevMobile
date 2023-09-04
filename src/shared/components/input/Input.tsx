@@ -4,12 +4,12 @@ import { ContainerInput } from './input.style';
 
 
 interface InputProps extends TextInputProps {
-
+    margin?: string
 }
 
-const Input = ({...props}: InputProps) => {
+const Input = ({margin, ...props}: InputProps) => {
     return (
-        <ContainerInput {...props} />
+        <ContainerInput margin={margin} {...props} />
     );
 };
 

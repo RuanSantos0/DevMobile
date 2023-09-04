@@ -9,3 +9,8 @@ export const ContainerPlugin = styled.View`
   align-items: center;
   padding: 16px;
 `;
+
+export const TitleLogin = styled.Text`
+  font-size: 25px;
+  font-weight: bold;
+`;
